@@ -9,7 +9,8 @@ Install through npm:
 ## Usage
 
 Once installed you need to import our main module into yours. You should end up with code similar to this:
-```import { NgModule } from '@angular/core';
+```
+import { NgModule } from '@angular/core';
 import { CardModule } from 'ngx-card/ngx-card';
 
 @NgModule({
@@ -29,7 +30,8 @@ export class AppModule { }
 
 ## add card.css and card.js inside `angular.json` following code:
 
-```"styles": [
+```
+"styles": [
       ...,
       "node_modules/card/dist/card.css"
  ],
