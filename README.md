@@ -39,17 +39,28 @@ export class AppModule { }
       "node_modules/card/dist/card.js"
  ],
  ```
+## Running the Application
+Install the Angular CLI
+  `npm install -g @angular/cli`
+  
+  Run `npm install`
+  
+  Run `ng serve -o`
+
 ## Functionality overview
 1) if user eneter any card details automatically detect card type.
 2) all required validation in card details.
 
 ## Some screenshot
-
+ 1)
 ![Screenshot (94)](https://user-images.githubusercontent.com/29365336/57570215-54609480-741d-11e9-896d-b5bf198399b6.png)
 ![Screenshot (95)](https://user-images.githubusercontent.com/29365336/57570217-5aef0c00-741d-11e9-8d3f-f484f1764bf3.png)
 ![Screenshot (96)](https://user-images.githubusercontent.com/29365336/57570226-65a9a100-741d-11e9-9c41-635d5d4233fb.png)
 
+2)
 
+![Screenshot (92)](https://user-images.githubusercontent.com/29365336/57570284-d81a8100-741d-11e9-9627-5aa11940ea96.png)
+![Screenshot (93)](https://user-images.githubusercontent.com/29365336/57570288-dc469e80-741d-11e9-9c26-e93fa851c49d.png)
 
 ## Development server
 
