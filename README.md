@@ -40,7 +40,8 @@ export class AppModule { }
  ],
  ```
 ## Functionality overview
-1)all required validaion in card 
+1) if user eneter any card details automatically detect card type.
+2) all required validation in card details.
 
 ## Some screenshot
 
