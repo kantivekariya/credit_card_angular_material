@@ -2,8 +2,39 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
-## Create Credit Card using `ngx-card`
+## Create Credit/Debit Card using `ngx-card`
+Install through npm:
+   `npm install --save ngx-card`
+   
+## Usage
+Once installed you need to import our main module into yours. You should end up with code similar to this:
+`
+import { NgModule } from '@angular/core';
+import { CardModule } from 'ngx-card/ngx-card';
 
+@NgModule({
+  declarations: [
+    AppComponent,
+    CardComponent
+  ],
+  imports: [
+    ....,
+    CardModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+`
+Also add inside `angular.json` following code:
+`"styles": [
+      ...,
+      "node_modules/card/dist/card.css"
+ ],
+ "scripts": [
+      "node_modules/card/dist/card.js"
+ ],`
+ 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
