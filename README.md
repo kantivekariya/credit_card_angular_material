@@ -8,8 +8,7 @@ Install through npm:
    
 ## Usage
 Once installed you need to import our main module into yours. You should end up with code similar to this:
-`
-import { NgModule } from '@angular/core';
+`import { NgModule } from '@angular/core';
 import { CardModule } from 'ngx-card/ngx-card';
 
 @NgModule({
@@ -24,9 +23,9 @@ import { CardModule } from 'ngx-card/ngx-card';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
-`
-Also add inside `angular.json` following code:
+export class AppModule { }`
+
+## add card.css and card.js inside `angular.json` following code:
 `"styles": [
       ...,
       "node_modules/card/dist/card.css"
