@@ -28,17 +28,6 @@ import { CardModule } from 'ngx-card/ngx-card';
 export class AppModule { }
 ```
 
-## add card.css and card.js inside `angular.json` following code:
-
-```
-"styles": [
-      ...,
-      "node_modules/card/dist/card.css"
- ],
- "scripts": [
-      "node_modules/card/dist/card.js"
- ],
- ```
 ## Running the Application
 Install the Angular CLI
   `npm install -g @angular/cli`
