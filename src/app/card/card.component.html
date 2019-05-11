@@ -1,0 +1,38 @@
+<div fxLayoutAlign="center" class="card-margin">
+    <div class="card-container"></div>
+</div>
+<div fxLayoutAlign="center">
+  <mat-card fxFlex="40%">
+    <mat-card-header>
+      <mat-card-title>My Card</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form [formGroup]="cardForm" (ngSubmit)="onSubmit()" card container=".card-container" card-width="500"
+        [messages]="messages" [placeholders]="placeholders" [masks]="masks" formatting="false" debug="true">
+
+        <mat-form-field class="full-width">
+          <input matInput formControlName="cardno" placeholder="Card Number" card-number>
+        </mat-form-field>
+        <div fxLayout="row" fxLayoutGap="20px">
+          <mat-form-field class="full-width">
+            <input matInput formControlName="firstName" placeholder="First Name" card-name>
+          </mat-form-field>
+          <mat-form-field class="full-width">
+            <input matInput formControlName="lastName" placeholder="Last Name" card-name>
+          </mat-form-field>
+        </div>
+        <div fxLayout="row" fxLayoutGap="20px">
+          <mat-form-field class="full-width">
+            <input matInput formControlName="expDate" placeholder="Exp Date" card-expiry>
+          </mat-form-field>
+          <mat-form-field class="full-width">
+            <input matInput formControlName="cvvNo" placeholder="CVV" card-cvc>
+          </mat-form-field>
+        </div>
+        <div fxLayoutAlign="end end">
+          <button mat-raised-button color="primary">Save</button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>
