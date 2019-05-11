@@ -7,6 +7,7 @@ Install through npm:
    `npm install --save ngx-card`
    
 ## Usage
+
 Once installed you need to import our main module into yours. You should end up with code similar to this:
 ```import { NgModule } from '@angular/core';
 import { CardModule } from 'ngx-card/ngx-card';
@@ -23,17 +24,25 @@ import { CardModule } from 'ngx-card/ngx-card';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }`
+export class AppModule { }
+```
 
 ## add card.css and card.js inside `angular.json` following code:
-`"styles": [
+
+```"styles": [
       ...,
       "node_modules/card/dist/card.css"
  ],
  "scripts": [
       "node_modules/card/dist/card.js"
- ],```
- 
+ ],
+ ```
+## Functionality overview
+1)all required validaion in card 
+
+## Some screenshot
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
