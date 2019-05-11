@@ -24,11 +24,10 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/ngx-toastr/toastr.css",
-              "node_modules/card/dist/card.css"
+              "node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": [
-              "node_modules/card/dist/card.js"
+             
             ],
             "es5BrowserSupport": true,
             
