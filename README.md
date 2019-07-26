@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
+# Demo
+
 ## Create Credit/Debit Card using `ngx-card`
 Install through npm:
    `npm install --save ngx-card`
